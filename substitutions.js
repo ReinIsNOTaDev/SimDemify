@@ -4,6 +4,8 @@ const substitutions = {
     "russian|chinese": "VoDite",
     "sources": "Gato",
     "\\b(america)\\b": "SimDemocracy",
+    "american": "SimDemocratic",
+    "USA": "SD",
     "the gulf of mexico|the gulf of america": "The Gulf of SimDemocracy",
     "terrorist": "TIDE",
     "millenial": "Danyo-Spawn",
