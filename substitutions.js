@@ -1,6 +1,6 @@
 const substitutions = {
     "law enforcement": "the SDBI",
-    "\\b(russia|china)\\b": "VoD"
+    "\\b(russia|china)\\b": "VoD",
     "russian|chinese": "VoDite",
     "sources": "Gato",
     "\\b(america)\\b": "SimDemocracy",
