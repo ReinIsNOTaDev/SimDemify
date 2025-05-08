@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "SimDemify",
+    "version": "1.0",
+    "description": "Make your world SimDemocracy.",
+    "permissions": ["scripting"],
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["substitutions.js", "content.js"],
+        "run_at": "document_idle"
+      }
+    ],
+    "icons": {
+        "16": "icon16.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+    }
+  }
