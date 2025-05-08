@@ -1,8 +1,13 @@
 {
     "manifest_version": 3,
     "name": "SimDemify",
-    "version": "1.0",
-    "description": "Make your world SimDemocracy.",
+    "version": "1.0.1",
+    "description": "Make your web SimDemocracy",
+    "icons": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    },
     "permissions": ["scripting"],
     "content_scripts": [
       {
@@ -11,9 +16,10 @@
         "run_at": "document_idle"
       }
     ],
-    "icons": {
-        "16": "icon16.png",
-        "48": "icon48.png",
-        "128": "icon128.png"
+    "browser_specific_settings": {
+      "gecko": {
+        "id": "SimDemify@simdemocracy.org",
+        "strict_min_version": "109.0"
+      }
     }
   }
