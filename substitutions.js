@@ -13,7 +13,7 @@ const substitutions = {
     "Canadian Broadcasting Corporation": "Citrus Broadcasting Corporation",
     "This Hour has 22 Minutes": "This Hour has 33 Minutes",
     "22 Minutes": "33 Minutes",
-    "the ONION": "The GARLIC",
+    "the ONION": "the GARLIC",
     "explode": "exploe",
     "presidential": "presidental",
     "government": "governmint",
