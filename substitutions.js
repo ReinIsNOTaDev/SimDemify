@@ -8,9 +8,16 @@ const substitutions = {
     "terrorist": "TIDE",
     "millenial": "Danyo-Spawn",
     "the .*? gazette": "The Gato Gazette",
+    "Canadian Broadcasting Corporation": "Citrus Broadcasting Corporation",
+    "This Hour has 22 Minutes": "This Hour has 33 Minutes",
+    "22 Minutes": "33 Minutes",
+    "the ONION": "The GARLIC",
     "explode": "exploe",
     "presidential": "presidental",
     "government": "governmint",
     "oppenheimer": "Birdish",
+    "country": "PolSim",
+    "countries": "PolSims",
+    "United Nations": "League of Servers",
   };
   
