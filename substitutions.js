@@ -1,12 +1,16 @@
 const substitutions = {
     "law enforcement": "the SDBI",
-    "russia": "VoD",
-    "china": "VoD",
+    "\\b(russia|china)\\b": "VoD"
+    "russian|chinese": "VoDite",
     "sources": "Gato",
-    "america": "SimDemocracy",
-    "the gulf of mexico": "The Gulf of SimDemocracy",
-    "the gulf of america": "The Gulf of SimDemocracy",
+    "\\b(america)\\b": "SimDemocracy",
+    "the gulf of mexico|the gulf of america": "The Gulf of SimDemocracy",
     "terrorist": "TIDE",
     "millenial": "Danyo-Spawn",
+    "the .*? gazette": "The Gato Gazette",
+    "explode": "exploe",
+    "presidential": "presidental",
+    "government": "governmint",
+    "oppenheimer": "Birdish",
   };
   
